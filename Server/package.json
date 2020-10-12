@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "gRPC Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "rebiss",
+  "license": "ISC",
+  "dependencies": {
+    "grpc": "1.24.3",
+    "google-protobuf": "3.13.0"
+  }
+}
